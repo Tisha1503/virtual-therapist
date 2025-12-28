@@ -7,6 +7,7 @@ A mental health support application powered by OpenAI's GPT-3.5 and Streamlit. T
 - **Custom Knowledge Base:** Uses a `knowledge.txt` file to provide domain-specific context to the AI.
 - **Session Memory:** Remembers the current conversation history during the session.
 - **Dual Modes:** Includes both a Terminal-based script and a Web-based application.
+## view app: https://virtual-therapist-dca638ne6b4trojf5y8qim.streamlit.app/
 
 ## Installation
 
