@@ -1,9 +1,9 @@
 import streamlit as st
 from openai import OpenAI
 
-st.set_page_config(page_title="Virtual Therapist", page_icon="🌱")
-st.title("🌱 Virtual Therapist")
-st.markdown("Providing mental health support anytime and anywhere.") # [cite: 9]
+st.set_page_config(page_title="Virtual Therapist", page_icon="")
+st.title("Virtual Therapist")
+st.markdown("Providing mental health support anytime and anywhere.") 
 
 api_key = st.sidebar.text_input("Enter OpenAI API Key", type="password")
 client = OpenAI(api_key=api_key) if api_key else None
